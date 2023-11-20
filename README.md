@@ -1,2 +1,2 @@
 # qa-automacao-selenium-cucumber
-## Colocando em prática aprendizado do Programa IT Talent
+Colocando em prática aprendizado do Programa IT Talent
