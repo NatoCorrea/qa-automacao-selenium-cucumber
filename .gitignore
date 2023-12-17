@@ -233,7 +233,7 @@ fabric.properties
 # Ignore everything but code style settings and run configurations
 # that are supposed to be shared within teams.
 
-.idea/*
+automacao-selenium-cucumber/.idea/vcs.xml
 
 !.idea/codeStyles
 !.idea/runConfigurations
