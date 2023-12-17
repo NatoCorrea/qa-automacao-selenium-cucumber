@@ -1,1 +1,642 @@
-[]
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-12-17T19:31:08.007Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2918000400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.antesDoTeste()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Navegacao para acessar pagina de adicionar contas",
+        "description": "",
+        "id": "utilizar-a-barra-de-navegacao-da-home-page;navegacao-para-acessar-pagina-de-adicionar-contas",
+        "after": [
+          {
+            "result": {
+              "duration": 80999500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.depoisDoTeste()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 639001600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que o usuario esteja logado e na home page",
+            "match": {
+              "location": "steps.HomeSteps.que_o_usuario_esteja_logado_e_na_home_page()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 247997600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicar no botao contas e depois no botao adicionar",
+            "match": {
+              "location": "steps.HomeSteps.clicar_no_botao_contas_e_depois_no_botao_adicionar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 4997600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "o sistema sera redirecionado para pagina de criacao de contas",
+            "match": {
+              "location": "steps.AddContasSteps.o_sistema_sera_redirecionado_para_pagina_de_criacao_de_contas()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-17T19:31:11.952Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1695999600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.antesDoTeste()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Navegacao para acessar pagina de listar contas",
+        "description": "",
+        "id": "utilizar-a-barra-de-navegacao-da-home-page;navegacao-para-acessar-pagina-de-listar-contas",
+        "after": [
+          {
+            "result": {
+              "duration": 84998800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.depoisDoTeste()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 581000200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que o usuario esteja logado e na home page",
+            "match": {
+              "location": "steps.HomeSteps.que_o_usuario_esteja_logado_e_na_home_page()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 280002200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "clicar no botao contas e depois no botao listar",
+            "match": {
+              "location": "steps.HomeSteps.clicar_no_botao_contas_e_depois_no_botao_listar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 4000700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "o sistema sera redirecionado para pagina de contas",
+            "match": {
+              "location": "steps.ContasSteps.o_sistema_sera_redirecionado_para_pagina_de_contas()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Utilizar a barra de navegacao da home page",
+    "description": "",
+    "id": "utilizar-a-barra-de-navegacao-da-home-page",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/home.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-12-17T19:31:14.611Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1796001400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.antesDoTeste()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Login com sucesso",
+        "description": "",
+        "id": "login;login-com-sucesso",
+        "after": [
+          {
+            "result": {
+              "duration": 89999900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.depoisDoTeste()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 126002000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que o usuario esteja na tela de login",
+            "match": {
+              "location": "steps.LoginSteps.que_o_usuario_esteja_na_tela_de_login()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 157999300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "preencher o campo email e senha com dados validos",
+            "match": {
+              "location": "steps.LoginSteps.preencher_o_campo_email_e_senha_com_dados_validos()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 416996400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicar no botao entrar",
+            "match": {
+              "location": "steps.LoginSteps.clicar_no_botao_entrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 38000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o sistema mostrara uma mensagem de sucesso \"Bem vindo, thiago!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bem vindo, thiago!\"",
+                  "offset": 43
+                }
+              ],
+              "location": "steps.HomeSteps.o_sistema_mostrara_uma_mensagem_de_sucesso(java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginSucesso"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-17T19:31:17.247Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1964000900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.antesDoTeste()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Realizar os teste de \"Login campo email em branco\" de excecao de login",
+        "description": "",
+        "id": "login;realizar-os-teste-de-\"\u003cfluxo\u003e\"-de-excecao-de-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1388997000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.depoisDoTeste()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 371997500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "que o usuario esteja na tela de login",
+            "match": {
+              "location": "steps.LoginSteps.que_o_usuario_esteja_na_tela_de_login()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 143002100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "preencher o campo email \"\" e o campo senha \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 43
+                }
+              ],
+              "location": "steps.LoginSteps.preencher_o_campo_email_e_o_campo_senha(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 780998200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clicar no botao entrar",
+            "match": {
+              "location": "steps.LoginSteps.clicar_no_botao_entrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 40002300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "o sistema mostrara uma mensagem \"Email é um campo obrigatório\" de erro",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Email é um campo obrigatório\"",
+                  "offset": 32
+                }
+              ],
+              "location": "steps.LoginSteps.o_sistema_mostrara_uma_mensagem_de_erro(java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-17T19:31:21.941Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6384996500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.antesDoTeste()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Realizar os teste de \"Login com email incorreto\" de excecao de login",
+        "description": "",
+        "id": "login;realizar-os-teste-de-\"\u003cfluxo\u003e\"-de-excecao-de-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 88998200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.depoisDoTeste()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 135000600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "que o usuario esteja na tela de login",
+            "match": {
+              "location": "steps.LoginSteps.que_o_usuario_esteja_na_tela_de_login()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 164001800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "preencher o campo email \"123@a.com\" e o campo senha \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123@a.com\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 52
+                }
+              ],
+              "location": "steps.LoginSteps.preencher_o_campo_email_e_o_campo_senha(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 431000800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clicar no botao entrar",
+            "match": {
+              "location": "steps.LoginSteps.clicar_no_botao_entrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 58999200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "o sistema mostrara uma mensagem \"Problemas com o login do usuário\" de erro",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Problemas com o login do usuário\"",
+                  "offset": 32
+                }
+              ],
+              "location": "steps.LoginSteps.o_sistema_mostrara_uma_mensagem_de_erro(java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-17T19:31:29.211Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1923999800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.antesDoTeste()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Realizar os teste de \"Login campo senha em branco\" de excecao de login",
+        "description": "",
+        "id": "login;realizar-os-teste-de-\"\u003cfluxo\u003e\"-de-excecao-de-login;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1154000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.depoisDoTeste()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 169001600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "que o usuario esteja na tela de login",
+            "match": {
+              "location": "steps.LoginSteps.que_o_usuario_esteja_na_tela_de_login()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 156999300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "preencher o campo email \"teste@teste.com\" e o campo senha \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"teste@teste.com\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 58
+                }
+              ],
+              "location": "steps.LoginSteps.preencher_o_campo_email_e_o_campo_senha(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 243999500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clicar no botao entrar",
+            "match": {
+              "location": "steps.LoginSteps.clicar_no_botao_entrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 40001200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "o sistema mostrara uma mensagem \"Senha é um campo obrigatório\" de erro",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Senha é um campo obrigatório\"",
+                  "offset": 32
+                }
+              ],
+              "location": "steps.LoginSteps.o_sistema_mostrara_uma_mensagem_de_erro(java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-17T19:31:32.905Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4301001800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.antesDoTeste()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Realizar os teste de \"Login com senha incorreta\" de excecao de login",
+        "description": "",
+        "id": "login;realizar-os-teste-de-\"\u003cfluxo\u003e\"-de-excecao-de-login;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 278999500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.depoisDoTeste()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 913000400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "que o usuario esteja na tela de login",
+            "match": {
+              "location": "steps.LoginSteps.que_o_usuario_esteja_na_tela_de_login()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 163998200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "preencher o campo email \"teste@teste.com\" e o campo senha \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"teste@teste.com\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"12345\"",
+                  "offset": 58
+                }
+              ],
+              "location": "steps.LoginSteps.preencher_o_campo_email_e_o_campo_senha(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 619999800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clicar no botao entrar",
+            "match": {
+              "location": "steps.LoginSteps.clicar_no_botao_entrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 40999700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "o sistema mostrara uma mensagem \"Problemas com o login do usuário\" de erro",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Problemas com o login do usuário\"",
+                  "offset": 32
+                }
+              ],
+              "location": "steps.LoginSteps.o_sistema_mostrara_uma_mensagem_de_erro(java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  Realizar suite de teste de login",
+    "id": "login",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]

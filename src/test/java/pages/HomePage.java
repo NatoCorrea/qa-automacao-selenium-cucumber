@@ -17,6 +17,7 @@ public class HomePage extends Actions {
     private By btnCriarMovimentacao = By.cssSelector("a[href='/movimentacao']");
     private By btnResumoMensal = By.cssSelector("a[href='/extrato']");
     private By btnSair = By.cssSelector("a[href='/logout']");
+    private By msgSeuBarriga = By.cssSelector("footer > span");
 
     public void validaHome(String _message) {
         get_text(validHome, _message);
@@ -43,5 +44,4 @@ public class HomePage extends Actions {
     public void clickBtnSair(){
         click(btnSair);
     }
-
 }

@@ -76,4 +76,7 @@ public class Actions extends Hooks {
             System.out.println(erro);
         }
     }
+    public String getURL(){
+        return driver.getCurrentUrl();
+    }
 }
