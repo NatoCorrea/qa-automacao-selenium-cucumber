@@ -16,7 +16,7 @@ public class LoginSteps{
 
     @Quando("preencher o campo email e senha com dados validos")
     public void preencher_o_campo_email_e_senha_com_dados_validos() {
-        loginPage.preencherLogin("teste@teste.com", "123456");
+        loginPage.preencherLogin("testando@qa.com", "123456");
     }
     @Quando("preencher o campo email {string} e o campo senha {string}")
     public void preencher_o_campo_email_e_o_campo_senha(String email, String senha) {
@@ -30,5 +30,5 @@ public class LoginSteps{
     @Entao("o sistema mostrara uma mensagem {string} de erro")
     public void o_sistema_mostrara_uma_mensagem_de_erro(String _message) {
         loginPage.mensagemErro(_message);
-    }
+    }//addScreenshot
 }

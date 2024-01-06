@@ -9,7 +9,6 @@ public class HomePage extends Actions {
     public HomePage(WebDriver navegador) {
         driver = navegador;
     }
-
     private By validHome = By.className("alert");
     private By btnContas = By.cssSelector(".dropdown a[href='/']");
     private By btnAdicionar = By.cssSelector("a[href='/addConta']");

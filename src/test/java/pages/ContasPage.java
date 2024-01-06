@@ -9,3 +9,4 @@ public class ContasPage extends Actions {
         driver = navegador;
     }
 }
+

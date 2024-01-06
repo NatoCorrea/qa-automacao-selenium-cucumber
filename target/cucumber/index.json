@@ -1,13 +1,34 @@
 [
   {
-    "line": 3,
+    "line": 2,
     "elements": [
       {
-        "start_timestamp": "2023-12-17T19:31:08.007Z",
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 885000900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que o usuario esteja logado e na AddContasPage",
+            "match": {
+              "location": "steps.AddContasSteps.que_o_usuario_esteja_logado_e_na_add_contas_page()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-06T23:46:01.469Z",
         "before": [
           {
             "result": {
-              "duration": 2918000400,
+              "duration": 3165998500,
               "status": "passed"
             },
             "match": {
@@ -15,14 +36,14 @@
             }
           }
         ],
-        "line": 5,
-        "name": "Navegacao para acessar pagina de adicionar contas",
+        "line": 7,
+        "name": "Adicionando nova conta",
         "description": "",
-        "id": "utilizar-a-barra-de-navegacao-da-home-page;navegacao-para-acessar-pagina-de-adicionar-contas",
+        "id": "utilizar-a-botao-contas-da-barra-de-navegacao;adicionando-nova-conta",
         "after": [
           {
             "result": {
-              "duration": 80999500,
+              "duration": 90997400,
               "status": "passed"
             },
             "match": {
@@ -35,22 +56,98 @@
         "steps": [
           {
             "result": {
-              "duration": 639001600,
+              "duration": 265996300,
               "status": "passed"
             },
-            "line": 6,
+            "line": 8,
+            "name": "o usuario escrever o nome da conta nova no campo em branco e clicar no botao salvar",
+            "match": {
+              "location": "steps.AddContasSteps.o_usuario_escrever_o_nome_da_conta_nova_no_campo_em_branco_e_clicar_no_botao_salvar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "o sistema redirecionara para a pagina de contas e mostrara mensagem de sucesso",
+            "match": {
+              "location": "steps.AddContasSteps.o_sistema_redirecionara_para_a_pagina_de_contas_e_mostrara_mensagem_de_sucesso()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Utilizar a botao contas da barra de navegacao",
+    "description": "",
+    "id": "utilizar-a-botao-contas-da-barra-de-navegacao",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/add_contas.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 593999600,
+              "status": "passed"
+            },
+            "line": 5,
             "name": "que o usuario esteja logado e na home page",
             "match": {
               "location": "steps.HomeSteps.que_o_usuario_esteja_logado_e_na_home_page()"
             },
             "keyword": "Dado "
-          },
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-06T23:46:05.932Z",
+        "before": [
           {
             "result": {
-              "duration": 247997600,
+              "duration": 1701000700,
               "status": "passed"
             },
-            "line": 7,
+            "match": {
+              "location": "steps.Hooks.antesDoTeste()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Navegacao para acessar pagina de adicionar contas",
+        "description": "",
+        "id": "utilizar-a-barra-de-navegacao-da-home-page;navegacao-para-acessar-pagina-de-adicionar-contas",
+        "after": [
+          {
+            "result": {
+              "duration": 85998500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.depoisDoTeste()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 247001500,
+              "status": "passed"
+            },
+            "line": 8,
             "name": "clicar no botao contas e depois no botao adicionar",
             "match": {
               "location": "steps.HomeSteps.clicar_no_botao_contas_e_depois_no_botao_adicionar()"
@@ -59,10 +156,10 @@
           },
           {
             "result": {
-              "duration": 4997600,
+              "duration": 4999900,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "o sistema sera redirecionado para pagina de criacao de contas",
             "match": {
               "location": "steps.AddContasSteps.o_sistema_sera_redirecionado_para_pagina_de_criacao_de_contas()"
@@ -72,11 +169,32 @@
         ]
       },
       {
-        "start_timestamp": "2023-12-17T19:31:11.952Z",
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 580998400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que o usuario esteja logado e na home page",
+            "match": {
+              "location": "steps.HomeSteps.que_o_usuario_esteja_logado_e_na_home_page()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-06T23:46:08.576Z",
         "before": [
           {
             "result": {
-              "duration": 1695999600,
+              "duration": 1695997300,
               "status": "passed"
             },
             "match": {
@@ -84,14 +202,14 @@
             }
           }
         ],
-        "line": 10,
+        "line": 11,
         "name": "Navegacao para acessar pagina de listar contas",
         "description": "",
         "id": "utilizar-a-barra-de-navegacao-da-home-page;navegacao-para-acessar-pagina-de-listar-contas",
         "after": [
           {
             "result": {
-              "duration": 84998800,
+              "duration": 75998000,
               "status": "passed"
             },
             "match": {
@@ -104,19 +222,7 @@
         "steps": [
           {
             "result": {
-              "duration": 581000200,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "que o usuario esteja logado e na home page",
-            "match": {
-              "location": "steps.HomeSteps.que_o_usuario_esteja_logado_e_na_home_page()"
-            },
-            "keyword": "Dado "
-          },
-          {
-            "result": {
-              "duration": 280002200,
+              "duration": 279000900,
               "status": "passed"
             },
             "line": 12,
@@ -128,7 +234,7 @@
           },
           {
             "result": {
-              "duration": 4000700,
+              "duration": 3999500,
               "status": "passed"
             },
             "line": 13,
@@ -152,11 +258,11 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2023-12-17T19:31:14.611Z",
+        "start_timestamp": "2024-01-06T23:46:11.223Z",
         "before": [
           {
             "result": {
-              "duration": 1796001400,
+              "duration": 1809998200,
               "status": "passed"
             },
             "match": {
@@ -171,7 +277,7 @@
         "after": [
           {
             "result": {
-              "duration": 89999900,
+              "duration": 84001000,
               "status": "passed"
             },
             "match": {
@@ -184,7 +290,7 @@
         "steps": [
           {
             "result": {
-              "duration": 126002000,
+              "duration": 125998400,
               "status": "passed"
             },
             "line": 8,
@@ -196,7 +302,7 @@
           },
           {
             "result": {
-              "duration": 157999300,
+              "duration": 153000500,
               "status": "passed"
             },
             "line": 9,
@@ -208,7 +314,7 @@
           },
           {
             "result": {
-              "duration": 416996400,
+              "duration": 399000300,
               "status": "passed"
             },
             "line": 10,
@@ -220,15 +326,15 @@
           },
           {
             "result": {
-              "duration": 38000000,
+              "duration": 50000700,
               "status": "passed"
             },
             "line": 11,
-            "name": "o sistema mostrara uma mensagem de sucesso \"Bem vindo, thiago!\"",
+            "name": "o sistema mostrara uma mensagem de sucesso \"Bem vindo, QA - Renato!\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Bem vindo, thiago!\"",
+                  "val": "\"Bem vindo, QA - Renato!\"",
                   "offset": 43
                 }
               ],
@@ -244,11 +350,11 @@
         ]
       },
       {
-        "start_timestamp": "2023-12-17T19:31:17.247Z",
+        "start_timestamp": "2024-01-06T23:46:13.856Z",
         "before": [
           {
             "result": {
-              "duration": 1964000900,
+              "duration": 1808001900,
               "status": "passed"
             },
             "match": {
@@ -263,7 +369,7 @@
         "after": [
           {
             "result": {
-              "duration": 1388997000,
+              "duration": 85000000,
               "status": "passed"
             },
             "match": {
@@ -276,7 +382,7 @@
         "steps": [
           {
             "result": {
-              "duration": 371997500,
+              "duration": 124999400,
               "status": "passed"
             },
             "line": 14,
@@ -288,7 +394,7 @@
           },
           {
             "result": {
-              "duration": 143002100,
+              "duration": 149000200,
               "status": "passed"
             },
             "line": 15,
@@ -310,7 +416,7 @@
           },
           {
             "result": {
-              "duration": 780998200,
+              "duration": 175999800,
               "status": "passed"
             },
             "line": 16,
@@ -322,7 +428,7 @@
           },
           {
             "result": {
-              "duration": 40002300,
+              "duration": 50999600,
               "status": "passed"
             },
             "line": 17,
@@ -341,11 +447,11 @@
         ]
       },
       {
-        "start_timestamp": "2023-12-17T19:31:21.941Z",
+        "start_timestamp": "2024-01-06T23:46:16.256Z",
         "before": [
           {
             "result": {
-              "duration": 6384996500,
+              "duration": 1609001000,
               "status": "passed"
             },
             "match": {
@@ -360,7 +466,7 @@
         "after": [
           {
             "result": {
-              "duration": 88998200,
+              "duration": 83000600,
               "status": "passed"
             },
             "match": {
@@ -373,7 +479,7 @@
         "steps": [
           {
             "result": {
-              "duration": 135000600,
+              "duration": 125997900,
               "status": "passed"
             },
             "line": 14,
@@ -385,7 +491,7 @@
           },
           {
             "result": {
-              "duration": 164001800,
+              "duration": 146999600,
               "status": "passed"
             },
             "line": 15,
@@ -407,7 +513,7 @@
           },
           {
             "result": {
-              "duration": 431000800,
+              "duration": 388997700,
               "status": "passed"
             },
             "line": 16,
@@ -419,7 +525,7 @@
           },
           {
             "result": {
-              "duration": 58999200,
+              "duration": 51000600,
               "status": "passed"
             },
             "line": 17,
@@ -438,11 +544,11 @@
         ]
       },
       {
-        "start_timestamp": "2023-12-17T19:31:29.211Z",
+        "start_timestamp": "2024-01-06T23:46:18.667Z",
         "before": [
           {
             "result": {
-              "duration": 1923999800,
+              "duration": 1816000900,
               "status": "passed"
             },
             "match": {
@@ -457,7 +563,7 @@
         "after": [
           {
             "result": {
-              "duration": 1154000000,
+              "duration": 81999900,
               "status": "passed"
             },
             "match": {
@@ -470,7 +576,7 @@
         "steps": [
           {
             "result": {
-              "duration": 169001600,
+              "duration": 127000500,
               "status": "passed"
             },
             "line": 14,
@@ -482,15 +588,15 @@
           },
           {
             "result": {
-              "duration": 156999300,
+              "duration": 146000400,
               "status": "passed"
             },
             "line": 15,
-            "name": "preencher o campo email \"teste@teste.com\" e o campo senha \"\"",
+            "name": "preencher o campo email \"testando@qa.com\" e o campo senha \"\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"teste@teste.com\"",
+                  "val": "\"testando@qa.com\"",
                   "offset": 24
                 },
                 {
@@ -504,7 +610,7 @@
           },
           {
             "result": {
-              "duration": 243999500,
+              "duration": 201998800,
               "status": "passed"
             },
             "line": 16,
@@ -516,7 +622,7 @@
           },
           {
             "result": {
-              "duration": 40001200,
+              "duration": 37001100,
               "status": "passed"
             },
             "line": 17,
@@ -535,11 +641,11 @@
         ]
       },
       {
-        "start_timestamp": "2023-12-17T19:31:32.905Z",
+        "start_timestamp": "2024-01-06T23:46:21.081Z",
         "before": [
           {
             "result": {
-              "duration": 4301001800,
+              "duration": 1688006100,
               "status": "passed"
             },
             "match": {
@@ -554,7 +660,7 @@
         "after": [
           {
             "result": {
-              "duration": 278999500,
+              "duration": 80000500,
               "status": "passed"
             },
             "match": {
@@ -567,7 +673,7 @@
         "steps": [
           {
             "result": {
-              "duration": 913000400,
+              "duration": 126994700,
               "status": "passed"
             },
             "line": 14,
@@ -579,15 +685,15 @@
           },
           {
             "result": {
-              "duration": 163998200,
+              "duration": 151003400,
               "status": "passed"
             },
             "line": 15,
-            "name": "preencher o campo email \"teste@teste.com\" e o campo senha \"12345\"",
+            "name": "preencher o campo email \"testando@qa.com\" e o campo senha \"12345\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"teste@teste.com\"",
+                  "val": "\"testando@qa.com\"",
                   "offset": 24
                 },
                 {
@@ -601,7 +707,7 @@
           },
           {
             "result": {
-              "duration": 619999800,
+              "duration": 390998500,
               "status": "passed"
             },
             "line": 16,
@@ -613,7 +719,7 @@
           },
           {
             "result": {
-              "duration": 40999700,
+              "duration": 49997700,
               "status": "passed"
             },
             "line": 17,
