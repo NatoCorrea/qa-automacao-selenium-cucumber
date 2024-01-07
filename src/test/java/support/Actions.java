@@ -1,4 +1,4 @@
-package runner.support;
+package support;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;

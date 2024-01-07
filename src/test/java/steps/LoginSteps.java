@@ -1,10 +1,7 @@
 package steps;
 
-import io.cucumber.java.pt.Dado;
-import io.cucumber.java.pt.Entao;
-import io.cucumber.java.pt.Quando;
+import io.cucumber.java.pt.*;
 import pages.LoginPage;
-
 import static steps.Hooks.driver;
 
 public class LoginSteps{
@@ -12,6 +9,7 @@ public class LoginSteps{
     @Dado("que o usuario esteja na tela de login")
     public void que_o_usuario_esteja_na_tela_de_login() {
         loginPage.validaPaginaLogin();
+//        screenshot();
     }
 
     @Quando("preencher o campo email e senha com dados validos")
@@ -30,5 +28,6 @@ public class LoginSteps{
     @Entao("o sistema mostrara uma mensagem {string} de erro")
     public void o_sistema_mostrara_uma_mensagem_de_erro(String _message) {
         loginPage.mensagemErro(_message);
-    }//addScreenshot
+//        screenshot();
+    }
 }

@@ -9,7 +9,7 @@ public class HomePage extends Actions {
     public HomePage(WebDriver navegador) {
         driver = navegador;
     }
-    private By validHome = By.className("alert");
+    private By msgValidHome = By.className("alert");
     private By btnContas = By.cssSelector(".dropdown a[href='/']");
     private By btnAdicionar = By.cssSelector("a[href='/addConta']");
     private By btnListar = By.cssSelector("a[href='/contas']");
@@ -18,15 +18,15 @@ public class HomePage extends Actions {
     private By btnSair = By.cssSelector("a[href='/logout']");
     private By msgSeuBarriga = By.cssSelector("footer > span");
 
-    public void validaHome(String _message) {
-        get_text(validHome, _message);
+    public void validaHome(String _messagem) {
+        get_text(msgValidHome, _messagem);
     }
-    public void clickBtnContas(String option){
+    public void clickBtnContas(String opcao){
         click(btnContas);
         try {
-            if (option == "Adicionar") {
+            if (opcao == "Adicionar") {
                 click(btnAdicionar);
-            } else if (option == "Listar") {
+            } else if (opcao == "Listar") {
                 click(btnListar);
             }
         }

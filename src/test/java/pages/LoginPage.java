@@ -8,14 +8,14 @@ public class LoginPage extends Actions {
     public LoginPage(WebDriver navegador) {
         driver = navegador;
     }
-    private By fieldEmail = By.id("email");
-    private By fieldPassword = By.id("senha");
+    private By campoEmail = By.id("email");
+    private By campoPassword = By.id("senha");
     private By btnEntrar = By.cssSelector("button[type=submit]");
-    private By message = By.className("alert");
+    private By messagem = By.className("alert");
 
     public void preencherLogin(String email, String password) {
-        set(fieldEmail, email);
-        set(fieldPassword, password);
+        set(campoEmail, email);
+        set(campoPassword, password);
     }
 
     public void clicarBtnLogin() {
@@ -24,8 +24,8 @@ public class LoginPage extends Actions {
     public void validaPaginaLogin() {
         driver.get("https://seubarriga.wcaquino.me/login");
     }
-    public void mensagemErro(String _message){
-        get_text(message, _message);
+    public void mensagemErro(String _messagem){
+        get_text(messagem, _messagem);
     }
 }
 
