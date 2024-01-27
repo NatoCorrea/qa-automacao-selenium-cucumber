@@ -15,3 +15,4 @@ Funcionalidade: Utilizar a barra de navegacao da home page
     Cenario: Navegacao para acessar pagina de criar movimentacao
       Quando o usuario clicar no botao criar movimentacao
       Entao o sistema sera redirecionado para pagina de movimentacao
+
