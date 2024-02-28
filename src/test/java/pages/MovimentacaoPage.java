@@ -35,13 +35,13 @@ public class MovimentacaoPage extends Actions {
         set(descricao, "Testando Descricao");
     }
     public void preencherInteressado(){
-        set(descricao, "QA - Renato Corrêa");
+        set(interessado, "QA - Renato Corrêa");
     }
     public void preencherValor(){
         set(valor, "300.0");
     }
     public void selecionarConta(){
-        select(conta);
+        select(selecionarConta);
     }
     public void clickPago(){
         click(pago);
