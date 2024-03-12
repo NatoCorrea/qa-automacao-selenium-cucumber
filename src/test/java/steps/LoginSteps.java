@@ -9,8 +9,8 @@ public class LoginSteps{
     LoginPage loginPage = new LoginPage(driver);
     @Dado("que o usuario esteja na tela de login")
     public void que_o_usuario_esteja_na_tela_de_login() {
-     loginPage.validaPaginaLogin();
-    Assert.assertEquals(loginPage.getURL(), "https://seubarriga.wcaquino.me/login");
+        loginPage.validaPaginaLogin();
+        Assert.assertEquals(loginPage.getURL(), "https://seubarriga.wcaquino.me/login");
     //        screenshot();
     }
 

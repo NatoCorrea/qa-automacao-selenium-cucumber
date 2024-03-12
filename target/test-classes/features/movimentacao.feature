@@ -22,5 +22,5 @@ Funcionalidade: Utilizar a botao criar movimentacao da barra de navegacao
 
   Cenario: Criando tipo de movimentacao despesa e situacao pendente
     Quando o usuario selecionar o tipo de movimentacao despesa e preencher todos os campos obrigatorios
-    E o usuario selecionar a conta e a situacao pago e clicar em salvar
+    E o usuario selecionar a conta e a situacao pendente e clicar em salvar
     Entao o sistema mostrara mensagem de sucesso
